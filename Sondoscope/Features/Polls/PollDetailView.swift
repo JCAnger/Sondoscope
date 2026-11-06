@@ -4,6 +4,7 @@ struct PollDetailView: View {
     @Environment(AppModel.self) private var model
     let polls: [Poll]
     @State private var index: Int
+    @State private var isReady = false
 
     init(polls: [Poll], startIndex: Int) {
         self.polls = polls
@@ -13,8 +14,33 @@ struct PollDetailView: View {
     private var poll: Poll { polls[index] }
 
     var body: some View {
+        Group {
+            if isReady {
+                content
+                    .transition(.opacity)
+            } else {
+                loadingView
+            }
+        }
+        .animation(.gentle, value: isReady)
+        .navigationTitle(poll.institute)
+        // Laisse la navigation se terminer avant de construire le contenu lourd.
+        .task {
+            await Task.yield()
+            isReady = true
+        }
+    }
+
+    private var loadingView: some View {
+        ProgressView {
+            Text("Chargement du sondage…")
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+
+    private var content: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
+            LazyVStack(alignment: .leading, spacing: 16) {
                 DemoBanner()
                 identityCard
                 ForEach(poll.hypotheses) { hypothesis in
@@ -28,7 +54,6 @@ struct PollDetailView: View {
             .transition(.opacity)
         }
         .simultaneousGesture(swipe)
-        .navigationTitle(poll.institute)
         .toolbar {
             ToolbarItemGroup {
                 Button { move(by: -1) } label: { Label("Plus récent", systemImage: "chevron.up") }

@@ -2,13 +2,20 @@ import Foundation
 
 struct AverageSettings: Hashable {
     var windowDays: Double = 60
-    var halfLifeDays: Double = 14
+    var halfLifeDays: Double = 7
     var maxSampleFactor: Double = 1.5
     var instituteDecay: Double = 0.5
     var minimumPolls: Int = 3
     var minimumMargin: Double = 1
     var trendThreshold: Double = 1
     var trendDays: Double = 30
+    /// Écarte les hypothèses où un candidat suivi, testé dans une autre hypothèse du même sondage, est absent
+    /// (retrait ou candidature unique d'un camp). Aucun sondage n'est écarté : sans hypothèse complète,
+    /// on garde les plus larges.
+    var excludeReducedScenarios = true
+    /// Candidats que l'utilisateur suppose retirés : ils sortent de la liste suivie, donc des moyennes, et les
+    /// hypothèses qui ne les contiennent pas sont préférées. Les scores des autres ne sont jamais redistribués.
+    var excludedCandidateIDs: Set<String> = []
 }
 
 enum CandidateScope: String, CaseIterable, Identifiable {
@@ -99,13 +106,28 @@ struct AverageEngine {
 
     /// Hypothèses du 1er tour les plus proches de la liste suivie. Plusieurs en cas d'égalité.
     func bestHypotheses(in poll: Poll, tracked: Set<String>) -> [Hypothesis] {
-        let scored = poll.firstRoundHypotheses.map { ($0, jaccard($0.candidateIDs, tracked)) }
+        var pool = poll.firstRoundHypotheses
+        if settings.excludeReducedScenarios {
+            // Hypothèse complète : elle contient tous les candidats suivis que le sondage a testés, toutes hypothèses confondues.
+            let tested = pool.reduce(into: Set<String>()) { $0.formUnion($1.candidateIDs.intersection(tracked)) }
+            let complete = pool.filter { $0.candidateIDs.intersection(tracked) == tested }
+            if !complete.isEmpty {
+                pool = complete
+            } else {
+                // Aucune hypothèse complète (variantes de camps) : le sondage reste, avec les hypothèses les plus larges.
+                let widest = pool.map { $0.candidateIDs.intersection(tracked).count }.max() ?? 0
+                pool = pool.filter { $0.candidateIDs.intersection(tracked).count == widest }
+            }
+        }
+        let scored = pool.map { ($0, jaccard($0.candidateIDs, tracked)) }
         guard let best = scored.map({ $0.1 }).max(), best > 0 else { return [] }
         return scored.filter { abs($0.1 - best) < 1e-9 }.map { $0.0 }
     }
 
     func average(dataset: Dataset, scope: CandidateScope, at date: Date, includeTrend: Bool = true) -> AverageResult {
-        let tracked = dataset.candidates.filter { scope.includes($0.status) }
+        let tracked = dataset.candidates.filter {
+            scope.includes($0.status) && !settings.excludedCandidateIDs.contains($0.id)
+        }
         let trackedIDs = Set(tracked.map(\.id))
         let day = 86_400.0
 

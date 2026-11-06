@@ -14,12 +14,12 @@
         }
       }
     },
-    "%@, %@, plus ou moins %@" : {
+    "%@, %@, plus ou moins %@%@" : {
       "localizations" : {
         "fr" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "%1$@, %2$@, plus ou moins %3$@"
+            "value" : "%1$@, %2$@, plus ou moins %3$@%4$@"
           }
         }
       }
@@ -72,6 +72,15 @@
     "Candidats suivis" : {
 
     },
+    "Ces candidats sont retirés de la liste, et les hypothèses sans eux sont préférées. Les scores des autres ne sont pas redistribués. Ce n'est ni une prévision ni une recommandation." : {
+
+    },
+    "Chargement des sondages…" : {
+
+    },
+    "Chargement du sondage…" : {
+
+    },
     "Commencer" : {
 
     },
@@ -99,6 +108,9 @@
     "Écart non significatif" : {
 
     },
+    "Écarter retraits et candidatures uniques" : {
+
+    },
     "Évolution" : {
 
     },
@@ -106,6 +118,9 @@
 
     },
     "Hors ligne : dernières données disponibles affichées" : {
+
+    },
+    "Hypothèses" : {
 
     },
     "Il faut au moins 3 sondages récents pour calculer une moyenne." : {
@@ -165,16 +180,31 @@
     "Première hypothèse publiée pour chaque sondage." : {
 
     },
+    "Réinitialiser les retraits supposés" : {
+
+    },
+    "Revenir aux résultats complets" : {
+
+    },
+    "Simulation : retrait supposé de %@" : {
+
+    },
     "Sondages" : {
 
     },
     "Sources et licences" : {
 
     },
+    "Stable sur 30 jours" : {
+
+    },
     "Statut : %@" : {
 
     },
     "Suivant" : {
+
+    },
+    "Supposer des retraits" : {
 
     },
     "Tendance" : {

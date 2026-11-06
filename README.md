@@ -25,7 +25,7 @@ App SwiftUI (iPhone, iPad, Mac natif, widgets) qui suit les intentions de vote �
 Le fichier de 2027etmoi ne couvre qu'environ sept semaines : c'est `pipeline/archive/` qui conserve l'historique. Vérifier avant mise en ligne que l'accès automatisé à data.gouv.fr est autorisé pour ce téléchargement.
 
 ## Moyenne
-Fenêtre de 60 jours, demi-vie de 14 jours, poids d'échantillon √(n/1000) plafonné à 1,5, poids d'institut 0,5^rang, hypothèse la plus proche par Jaccard. Réglages : `AverageSettings`.
+Fenêtre de 60 jours, demi-vie de 7 jours, poids d'échantillon √(n/1000) plafonné à 1,5, poids d'institut 0,5^rang, hypothèse la plus proche par Jaccard. Réglages : `AverageSettings`.
 
 ## Avant publication
 Faire vérifier le silence électoral et les mentions légales, puis la disponibilité du nom.

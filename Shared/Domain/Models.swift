@@ -113,12 +113,18 @@ extension JSONDecoder {
 enum DateParsing {
     static let paris = TimeZone(identifier: "Europe/Paris")!
 
-    static func parse(_ text: String) -> Date? {
+    // Créés une fois : instancier un formateur par date ralentissait le décodage de tout le fichier.
+    private static let dayFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "en_US_POSIX")
         formatter.timeZone = paris
         formatter.dateFormat = "yyyy-MM-dd"
-        if let day = formatter.date(from: text) { return day }
-        return ISO8601DateFormatter().date(from: text)
+        return formatter
+    }()
+    private static let isoFormatter = ISO8601DateFormatter()
+
+    static func parse(_ text: String) -> Date? {
+        if let day = dayFormatter.date(from: text) { return day }
+        return isoFormatter.date(from: text)
     }
 }

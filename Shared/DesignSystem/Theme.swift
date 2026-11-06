@@ -55,10 +55,8 @@ enum Palette {
     }
 }
 
+/// Fond statique, rasterisé une fois : les cartes en matériau n'ont plus à re-flouter un fond animé à chaque image.
 struct AquaBackground: View {
-    @Environment(\.accessibilityReduceMotion) private var reduceMotion
-    @State private var drift = false
-
     var body: some View {
         ZStack {
             LinearGradient(colors: [Palette.foam, Palette.sky, Palette.mint],
@@ -67,18 +65,15 @@ struct AquaBackground: View {
                 .fill(Palette.mint.opacity(0.55))
                 .frame(width: 320, height: 320)
                 .blur(radius: 70)
-                .offset(x: drift ? 120 : -90, y: drift ? -210 : -150)
+                .offset(x: -90, y: -150)
             Circle()
                 .fill(Palette.sky.opacity(0.7))
                 .frame(width: 280, height: 280)
                 .blur(radius: 70)
-                .offset(x: drift ? -130 : 100, y: drift ? 240 : 170)
+                .offset(x: 100, y: 170)
         }
+        .drawingGroup()
         .ignoresSafeArea()
-        .onAppear {
-            guard !reduceMotion else { return }
-            withAnimation(.easeInOut(duration: 16).repeatForever(autoreverses: true)) { drift = true }
-        }
         .accessibilityHidden(true)
     }
 }
@@ -90,7 +85,8 @@ struct AquaCard: ViewModifier {
             .frame(maxWidth: .infinity, alignment: .leading)
             // Toute la carte réagit au toucher, pas seulement son texte.
             .contentShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
-            .glassEffect(.regular, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
+            // Matériau plutôt que Liquid Glass : bien moins coûteux quand une fiche compte beaucoup de cartes.
+            .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
     }
 }
 

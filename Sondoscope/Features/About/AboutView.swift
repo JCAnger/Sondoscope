@@ -67,10 +67,10 @@ struct MethodView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
                 step("Fenêtre", "Seuls les sondages terminés depuis moins de 60 jours comptent.")
-                step("Récence", "Le poids d'un sondage est divisé par deux tous les 14 jours.")
+                step("Récence", "Le poids d'un sondage est divisé par deux tous les 7 jours.")
                 step("Échantillon", "Un grand échantillon compte davantage, avec un plafond pour éviter qu'il écrase les autres.")
                 step("Diversité", "Pour chaque institut, chaque sondage plus ancien compte moitié moins.")
-                step("Hypothèse", "Dans chaque sondage, l'hypothèse la plus proche de la liste suivie est retenue. Un sondage ne compte jamais deux fois.")
+                step("Hypothèse", "Dans chaque sondage, l'hypothèse la plus proche de la liste suivie est retenue. Un sondage ne compte jamais deux fois. Par défaut, les hypothèses où un candidat testé ailleurs dans le même sondage est absent (retrait, candidature unique d'un camp) sont écartées. Aucun sondage n'est écarté pour autant : sans hypothèse complète, les plus larges sont gardées. Ce réglage se change dans l'onglet Tendance.")
                 step("Fourchette", "Indication à 95 %, jamais inférieure à ±1 point. Elle reste approximative pour des sondages par quotas.")
                 step("Seuil", "En dessous de 3 sondages, aucun score n'est affiché.")
 

@@ -28,9 +28,9 @@ private func dataset(_ candidates: [Candidate], _ polls: [Poll]) -> Dataset {
 @Suite struct AverageEngineTests {
     let engine = AverageEngine()
 
-    @Test func recencyHalvesEveryFourteenDays() {
-        #expect(abs(engine.recencyWeight(ageDays: 14) - 0.5) < 1e-9)
-        #expect(abs(engine.recencyWeight(ageDays: 28) - 0.25) < 1e-9)
+    @Test func recencyHalvesEverySevenDays() {
+        #expect(abs(engine.recencyWeight(ageDays: 7) - 0.5) < 1e-9)
+        #expect(abs(engine.recencyWeight(ageDays: 14) - 0.25) < 1e-9)
     }
 
     @Test func sampleWeightIsCapped() {
@@ -46,8 +46,8 @@ private func dataset(_ candidates: [Candidate], _ polls: [Poll]) -> Dataset {
     @Test func recentPollWeighsMore() {
         let polls = [
             poll("a", ageDays: 0, hypotheses: [hypothesis("h", ["x": 30])]),
-            poll("b", ageDays: 14, hypotheses: [hypothesis("h", ["x": 20])]),
-            poll("c", ageDays: 28, hypotheses: [hypothesis("h", ["x": 10])]),
+            poll("b", ageDays: 7, hypotheses: [hypothesis("h", ["x": 20])]),
+            poll("c", ageDays: 14, hypotheses: [hypothesis("h", ["x": 10])]),
         ]
         let result = engine.average(dataset: dataset([candidate("x")], polls), scope: .declared, at: now)
         // (1×30 + 0,5×20 + 0,25×10) / 1,75 = 24,2857…
@@ -87,6 +87,44 @@ private func dataset(_ candidates: [Candidate], _ polls: [Poll]) -> Dataset {
         ])
         let picked = engine.bestHypotheses(in: target, tracked: ["x", "y"])
         #expect(picked.map(\.id) == ["near"])
+    }
+
+    @Test func reducedHypothesisIsNeverPickedOverTheCompleteOne() {
+        let target = poll("a", ageDays: 0, hypotheses: [
+            hypothesis("withdrawal", ["x": 30, "y": 20]),
+            hypothesis("full", ["x": 28, "y": 18, "z": 10, "q1": 3, "q2": 2]),
+        ])
+        // « withdrawal » est plus proche de la liste suivie (moins de candidats non suivis), mais il omet z, testé dans « full ».
+        let loose = AverageEngine(settings: AverageSettings(excludeReducedScenarios: false))
+        #expect(loose.bestHypotheses(in: target, tracked: ["x", "y", "z"]).map(\.id) == ["withdrawal"])
+        #expect(engine.bestHypotheses(in: target, tracked: ["x", "y", "z"]).map(\.id) == ["full"])
+    }
+
+    @Test func pollWithOnlySingleCandidacyScenariosStaysWithWidestHypotheses() {
+        let alternatives = poll("a", ageDays: 0, hypotheses: [
+            hypothesis("only-y", ["x": 30, "y": 20]),
+            hypothesis("only-z", ["x": 30, "z": 20]),
+        ])
+        let others = ["b", "c", "d"].map { poll($0, ageDays: 0, hypotheses: [hypothesis("h", ["x": 30, "y": 20, "z": 5])]) }
+        let data = dataset([candidate("x"), candidate("y"), candidate("z")], [alternatives] + others)
+        #expect(engine.average(dataset: data, scope: .declared, at: now).pollCount == 4)
+        let loose = AverageEngine(settings: AverageSettings(excludeReducedScenarios: false))
+        #expect(loose.average(dataset: data, scope: .declared, at: now).pollCount == 4)
+    }
+
+    @Test func assumedWithdrawalRemovesCandidateAndPrefersHypothesesWithoutThem() {
+        let polls = ["a", "b", "c"].map {
+            poll($0, ageDays: 0, hypotheses: [
+                hypothesis("with-y", ["x": 30, "y": 20]),
+                hypothesis("without-y", ["x": 40, "z": 10]),
+            ])
+        }
+        let data = dataset([candidate("x"), candidate("y"), candidate("z")], polls)
+        let simulated = AverageEngine(settings: AverageSettings(excludedCandidateIDs: ["y"]))
+        let result = simulated.average(dataset: data, scope: .declared, at: now)
+        #expect(!result.averages.contains { $0.candidate.id == "y" })
+        // Seule l'hypothèse sans y est retenue : x vaut 40, sans redistribution.
+        #expect(abs(result.averages.first { $0.candidate.id == "x" }!.raw - 40) < 1e-9)
     }
 
     @Test func candidateAbsentFromPollsIsNotAveragedWithZero() {
