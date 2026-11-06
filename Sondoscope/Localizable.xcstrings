@@ -1,5 +1,200 @@
 {
-  "sourceLanguage": "fr",
-  "strings": {},
-  "version": "1.0"
+  "sourceLanguage" : "fr",
+  "strings" : {
+    "%" : {
+
+    },
+    "%@, %@" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@"
+          }
+        }
+      }
+    },
+    "%@, %@, plus ou moins %@" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@, plus ou moins %3$@"
+          }
+        }
+      }
+    },
+    "%lld sondage(s) pris en compte" : {
+
+    },
+    "± %@" : {
+
+    },
+    "1er tour" : {
+
+    },
+    "2d tour" : {
+
+    },
+    "30 j" : {
+
+    },
+    "30 jours" : {
+
+    },
+    "90 j" : {
+
+    },
+    "90 jours" : {
+
+    },
+    "À propos" : {
+
+    },
+    "Aucun sondage" : {
+
+    },
+    "Aucun sondage ne correspond à ces critères." : {
+
+    },
+    "Aucune candidature" : {
+
+    },
+    "Aucune source chargée." : {
+
+    },
+    "Candidat" : {
+
+    },
+    "Candidats" : {
+
+    },
+    "Candidats suivis" : {
+
+    },
+    "Commencer" : {
+
+    },
+    "Comment c'est calculé ?" : {
+
+    },
+    "Consulter la notice officielle" : {
+
+    },
+    "Courbes d'évolution des moyennes par candidat" : {
+
+    },
+    "Date" : {
+
+    },
+    "Derniers scores" : {
+
+    },
+    "Données insuffisantes" : {
+
+    },
+    "Données mises à jour le %@" : {
+
+    },
+    "Écart non significatif" : {
+
+    },
+    "Évolution" : {
+
+    },
+    "Explication : %@" : {
+
+    },
+    "Hors ligne : dernières données disponibles affichées" : {
+
+    },
+    "Il faut au moins 3 sondages récents pour calculer une moyenne." : {
+
+    },
+    "Institut" : {
+
+    },
+    "Intention de vote" : {
+
+    },
+    "La loi interdit de publier ou de commenter des sondages la veille et le jour du scrutin, jusqu'à la fermeture des derniers bureaux de vote. L'application reprendra ensuite." : {
+
+    },
+    "Les données ne sont pas encore disponibles." : {
+
+    },
+    "Les sondages de la présidentielle, en clair" : {
+
+    },
+    "Méthode" : {
+
+    },
+    "Moyenne" : {
+
+    },
+    "Moyenne de sondages, pas une prédiction." : {
+
+    },
+    "Moyenne pondérée" : {
+
+    },
+    "Notices de la Commission des sondages" : {
+
+    },
+    "Passer" : {
+
+    },
+    "Période" : {
+
+    },
+    "Période de silence électoral" : {
+
+    },
+    "Plus ancien" : {
+
+    },
+    "Plus récent" : {
+
+    },
+    "Poids actuels" : {
+
+    },
+    "pour %@" : {
+
+    },
+    "Première hypothèse publiée pour chaque sondage." : {
+
+    },
+    "Sondages" : {
+
+    },
+    "Sources et licences" : {
+
+    },
+    "Statut : %@" : {
+
+    },
+    "Suivant" : {
+
+    },
+    "Tendance" : {
+
+    },
+    "Tout" : {
+
+    },
+    "Toute la période" : {
+
+    },
+    "Une candidature annoncée n'est pas une candidature validée. La liste officielle du Conseil constitutionnel est attendue vers la mi-mars 2027." : {
+
+    },
+    "Vérifié le %@" : {
+
+    },
+    "Voir la source" : {
+
+    }
+  },
+  "version" : "1.0"
 }

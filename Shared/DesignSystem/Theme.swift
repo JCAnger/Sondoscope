@@ -88,6 +88,8 @@ struct AquaCard: ViewModifier {
         content
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
+            // Toute la carte réagit au toucher, pas seulement son texte.
+            .contentShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
             .glassEffect(.regular, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
     }
 }
