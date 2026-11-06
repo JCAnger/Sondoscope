@@ -1,0 +1,6 @@
+.DS_Store
+xcuserdata/
+DerivedData/
+public/
+pipeline/raw/*.json
+__pycache__/

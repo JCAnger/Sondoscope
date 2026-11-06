@@ -1,0 +1,6481 @@
+[
+ {
+  "institute": "Ipsos bva",
+  "sponsor": "Le Parisien",
+  "fieldStart": "2026-10-21",
+  "fieldEnd": "2026-10-22",
+  "sampleSize": 1500,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10338-pres-iv-ipsos-bva-le-parisien-24-octobre.pdf",
+  "source": "Commission des sondages – notice Ipsos bva pour Le Parisien",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse Attal et Philippe candidats",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 4
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 13
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33.5
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4.5
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse Philippe candidat unique Renaissance-MoDem-Horizons",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 14
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33.5
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4.5
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse Attal candidat unique Renaissance-MoDem-Horizons",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 15.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 9.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 11.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33.5
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4.5
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse Philippe et Lisnard candidats",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 14
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 5.5
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 6.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 32
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   }
+  ],
+  "id": "ipsos-bva-2026-10-21-2026-10-22-le-parisien"
+ },
+ {
+  "institute": "Cluster17",
+  "sponsor": "Politico",
+  "fieldStart": "2026-10-19",
+  "fieldEnd": "2026-10-22",
+  "sampleSize": 2817,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10339-pres-iv-cluster17-politico-26-octobre.pdf",
+  "source": "Commission des sondages – notice Cluster17 pour Politico",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse 1 : Philippe candidat du centre (chiffres publiés)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 16
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 18.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2
+     },
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse 2 : Attal candidat du centre (chiffres publiés)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 10
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 12
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 19.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 32.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2
+     },
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 14
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse 3 : Philippe, Lisnard et Hollande (chiffres publiés)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 6.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 19.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 30.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.5
+     }
+    ]
+   }
+  ],
+  "id": "cluster17-2026-10-19-2026-10-22-politico"
+ },
+ {
+  "institute": "Toluna Harris Interactive",
+  "sponsor": "M6 et RTL",
+  "fieldStart": "2026-10-19",
+  "fieldEnd": "2026-10-21",
+  "sampleSize": 2094,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10332-pres-iv-toluna-harris-interactive-23-octobre.pdf",
+  "source": "Commission des sondages – notice Toluna Harris Interactive pour M6 et RTL",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse Philippe, Villepin et Lisnard",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 15
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 1
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 7
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 4
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse Attal, Villepin et Lisnard",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 14
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 10
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 2
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 8
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse Attal et Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 1
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 13
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 6
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse Philippe candidat unique du centre",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 16
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   },
+   {
+    "id": "h5",
+    "label": "Hypothèse Attal candidat unique du centre",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 19
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 11
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 6
+     }
+    ]
+   }
+  ],
+  "id": "toluna-harris-interactive-2026-10-19-2026-10-21-m6-et-rtl"
+ },
+ {
+  "institute": "Ifop-Fiducial",
+  "sponsor": "LCI, Le Figaro et Sud Radio (baromètre, vague 7)",
+  "fieldStart": "2026-10-17",
+  "fieldEnd": "2026-10-19",
+  "sampleSize": 1928,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10327-pres-barometre-election-v7-ifop-20-octobre.pdf",
+  "source": "Commission des sondages – notice Ifop-Fiducial pour LCI, Le Figaro et Sud Radio (baromètre, vague 7)",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse Philippe et Attal candidats",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 12
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.5
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse Philippe candidat du bloc central",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 14
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.5
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse Attal candidat du bloc central",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 16
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 13
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 38
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse Mélenchon et Glucksmann seuls candidats de gauche",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 18
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 16
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 16
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 37
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.5
+     }
+    ]
+   },
+   {
+    "id": "h5",
+    "label": "Hypothèse Mélenchon et Hollande seuls candidats de gauche",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 20
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 10
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 6.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 14
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 38
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h6",
+    "label": "Hypothèse avec Ruffin, Villepin et Lisnard (Arthaud « - »)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "ruffin",
+      "name": "François Ruffin",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 4
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 12
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 5.5
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 5.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h7",
+    "label": "Hypothèse Lisnard seul candidat de droite",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 13
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   }
+  ],
+  "id": "ifop-fiducial-2026-10-17-2026-10-19-lci-le-figaro-et-sud-radio-barometre-vague-7"
+ },
+ {
+  "institute": "YouGov",
+  "sponsor": "Le HuffPost",
+  "fieldStart": "2026-10-12",
+  "fieldEnd": "2026-10-15",
+  "sampleSize": 976,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10323-pres-iv-yougov-le-huffpost-18-octobre.pdf",
+  "source": "Commission des sondages – notice YouGov pour Le HuffPost",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse 1 : Attal, Philippe et Glucksmann (chiffres pondérés de la notice, au point)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 6
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 6
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 10
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse 2 : Attal candidat du centre (chiffres pondérés, au point)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 6
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 14
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 10
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 37
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse 3 : Philippe candidat du centre (chiffres pondérés, au point)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 6
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 13
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse 4 : Hollande candidat socialiste, avec Philippe (chiffres pondérés, au point)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 6
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 9
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 37
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h5",
+    "label": "Hypothèse 5 : avec Lisnard, Villepin et Ruffin (chiffres pondérés, au point)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 13
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 5
+     },
+     {
+      "candidateID": "ruffin",
+      "name": "François Ruffin",
+      "percent": 2
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 6
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 8
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 1
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 4
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   }
+  ],
+  "id": "yougov-2026-10-12-2026-10-15-le-huffpost"
+ },
+ {
+  "institute": "OpinionWay",
+  "sponsor": "Les Echos et Radio Classique (Présitrack, vague 3)",
+  "fieldStart": "2026-10-13",
+  "fieldEnd": "2026-10-14",
+  "sampleSize": 978,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10318-pres-presitrack-v3-opinionway-15-octobre.pdf",
+  "source": "Commission des sondages – notice OpinionWay pour Les Echos et Radio Classique (Présitrack, vague 3)",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse 1 : Attal et Philippe candidats du centre (Arthaud « <1 % », noté 0,5 ; colonne « Publié »)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 14
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 7
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 12
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse 2 : Attal candidat du centre",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 16
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 11
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 37
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse 3 : Philippe candidat du centre",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 15
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     }
+    ]
+   }
+  ],
+  "id": "opinionway-2026-10-13-2026-10-14-les-echos-et-radio-classique-presitrack-vague-3"
+ },
+ {
+  "institute": "OpinionWay",
+  "sponsor": "CNews",
+  "fieldStart": "2026-10-13",
+  "fieldEnd": "2026-10-14",
+  "sampleSize": 978,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10319-pres-iv-opinionway-cnews-15-octobre.pdf",
+  "source": "Commission des sondages – notice OpinionWay pour CNews",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse unique avec Attal, Philippe, Lisnard et Bouamrane (colonne « Publié » reconstituée, tableau mal aligné dans la notice ; Tondelier « <1 % », noté 0,5)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 1
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13
+     },
+     {
+      "candidateID": "bouamrane",
+      "name": "Karim Bouamrane",
+      "percent": 1
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 12
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 4
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     }
+    ]
+   }
+  ],
+  "id": "opinionway-2026-10-13-2026-10-14-cnews"
+ },
+ {
+  "institute": "Ifop-Fiducial",
+  "sponsor": "LCI et Sud Radio (le climat politique après la primaire du PS et de Place publique)",
+  "fieldStart": "2026-10-12",
+  "fieldEnd": "2026-10-14",
+  "sampleSize": 1390,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10314-pres-climat-politique-post-primaire-ps-pp-ifop-lci-14-octobre.pdf",
+  "source": "Commission des sondages – notice Ifop-Fiducial pour LCI et Sud Radio",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse Philippe et Attal candidats (Arthaud « - »)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 14
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 6
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 14
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse Philippe candidat du bloc central",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 18
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse Attal candidat du bloc central",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 16
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 13
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse avec Ruffin, Villepin et Lisnard (Arthaud « - »)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "ruffin",
+      "name": "François Ruffin",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 13
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 6
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 32
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   }
+  ],
+  "id": "ifop-fiducial-2026-10-12-2026-10-14-lci-et-sud-radio-le-climat-politique-apres-la-primaire-du-ps-et-de-place-publique"
+ },
+ {
+  "institute": "Toluna Harris Interactive",
+  "sponsor": "M6 et RTL",
+  "fieldStart": "2026-10-05",
+  "fieldEnd": "2026-10-08",
+  "sampleSize": 2004,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10305-pres-iv-toluna-harris-interactive-12-octobre.pdf",
+  "source": "Commission des sondages – notice Toluna Harris Interactive pour M6 et RTL",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse Glucksmann, Attal et Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 18
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 10
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 13
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse Glucksmann et Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 18
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 10
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 17
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse Glucksmann et Attal",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 18
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 12
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 10
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse Hollande et Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 18
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 7
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 17
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h5",
+    "label": "Hypothèse Hollande et Attal",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 19
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 5
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 7
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 12
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 10
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 37
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   }
+  ],
+  "id": "toluna-harris-interactive-2026-10-05-2026-10-08-m6-et-rtl"
+ },
+ {
+  "institute": "Ifop-Fiducial",
+  "sponsor": "LCI, Le Figaro et Sud Radio (baromètre, vague 6)",
+  "fieldStart": "2026-09-25",
+  "fieldEnd": "2026-09-29",
+  "sampleSize": 1393,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10284-pres-barometre-election-presidentielle-v6-ifop-le-figaro-30-septembre.pdf",
+  "source": "Commission des sondages – notice Ifop baromètre de l'élection présidentielle vague 6",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse Philippe et Attal candidats, Glucksmann candidat PS-Place publique",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 16
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 32
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse Philippe candidat du bloc central, Glucksmann candidat PS-Place publique",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 21
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.5
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse Attal candidat du bloc central, Glucksmann candidat PS-Place publique",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 10
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.5
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse Philippe candidat du bloc central, Faure candidat PS-Place publique",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 5
+     },
+     {
+      "candidateID": "faure",
+      "name": "Olivier Faure",
+      "percent": 3
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 23
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h5",
+    "label": "Hypothèse Attal candidat du bloc central, Faure candidat PS-Place publique",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 5.5
+     },
+     {
+      "candidateID": "faure",
+      "name": "Olivier Faure",
+      "percent": 4
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 17
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 11
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4.5
+     }
+    ]
+   },
+   {
+    "id": "h6",
+    "label": "Hypothèse Philippe candidat du bloc central, Royal candidate PS-Place publique",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 6
+     },
+     {
+      "candidateID": "royal",
+      "name": "Ségolène Royal",
+      "percent": 3
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 24
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h7",
+    "label": "Hypothèse Philippe candidat du bloc central, Guedj candidat PS-Place publique",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 5.5
+     },
+     {
+      "candidateID": "guedj",
+      "name": "Jérôme Guedj",
+      "percent": 3
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 23
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h8",
+    "label": "Hypothèse Philippe candidat du bloc central, Maurel candidat PS-Place publique",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 6
+     },
+     {
+      "candidateID": "maurel",
+      "name": "Emmanuel Maurel",
+      "percent": 1
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 23
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h9",
+    "label": "Hypothèse Philippe candidat du bloc central, Hollande candidat PS-Place publique",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 5
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 22
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h10",
+    "label": "Hypothèse Ruffin, Villepin et Lisnard candidats",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 14
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "ruffin",
+      "name": "François Ruffin",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 9
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 7
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 15
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 2
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 31
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   }
+  ],
+  "id": "ifop-fiducial-2026-09-25-2026-09-29-lci-le-figaro-et-sud-radio-barometre-vague-6"
+ },
+ {
+  "institute": "YouGov",
+  "sponsor": "Le HuffPost",
+  "fieldStart": "2026-09-17",
+  "fieldEnd": "2026-09-21",
+  "sampleSize": 1008,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10270-pres-iv-yougov-huffpost-23-septembre.pdf",
+  "source": "Commission des sondages – notice YouGov pour Le HuffPost",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse 1 : Attal, Philippe et Glucksmann (chiffres pondérés de la notice, au point)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 8
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 9
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 12
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 6
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse 2 : Bruno Le Maire pour Renaissance (chiffres pondérés de la notice, au point)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 9
+     },
+     {
+      "candidateID": "le-maire",
+      "name": "Bruno Le Maire",
+      "percent": 3
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 13
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 6
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse 2 bis : Gabriel Attal sans Édouard Philippe (chiffres pondérés de la notice, au point)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 9
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 14
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 10
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse 3 : Édouard Philippe sans Attal ni Glucksmann (chiffres pondérés de la notice, au point)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 18
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 7
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 17
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 37
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   },
+   {
+    "id": "h5",
+    "label": "Hypothèse 4 : Olivier Faure candidat socialiste (chiffres pondérés de la notice, au point)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "faure",
+      "name": "Olivier Faure",
+      "percent": 5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 9
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 12
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 6
+     }
+    ]
+   },
+   {
+    "id": "h6",
+    "label": "Hypothèse 5 : liste élargie (Hollande, Lisnard, Villepin, Ruffin, Bertrand) (chiffres pondérés de la notice, au point)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 1
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 5
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 4
+     },
+     {
+      "candidateID": "ruffin",
+      "name": "François Ruffin",
+      "percent": 2
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 10
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 2
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 2
+     },
+     {
+      "candidateID": "bertrand",
+      "name": "Xavier Bertrand",
+      "percent": 1
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   }
+  ],
+  "id": "yougov-2026-09-17-2026-09-21-le-huffpost"
+ },
+ {
+  "institute": "Cluster17",
+  "sponsor": "Politico",
+  "fieldStart": "2026-09-15",
+  "fieldEnd": "2026-09-16",
+  "sampleSize": 1943,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10273-pres-iv-cluster17-politico-24-septembre.pdf",
+  "source": "Commission des sondages – notice Cluster17 pour Politico",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse 1 : Philippe et Glucksmann (chiffres redressés de la notice, à la décimale)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.4
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 19.1
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2.6
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11.8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 18.8
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7.6
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3.2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 30.8
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.5
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse 2 : Attal et Glucksmann (chiffres redressés de la notice, à la décimale)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.4
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 19.8
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2.6
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 14.0
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 13.4
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3.2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 31.0
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.6
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse 3 : Hollande, Philippe et Lisnard, sans Zemmour (chiffres redressés de la notice, à la décimale)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.7
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 19.6
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.9
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3.0
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 7.4
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 19.4
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7.6
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 5.2
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 4.0
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 30.2
+     }
+    ]
+   }
+  ],
+  "id": "cluster17-2026-09-15-2026-09-16-politico"
+ },
+ {
+  "institute": "Toluna Harris Interactive",
+  "sponsor": "M6 et RTL",
+  "fieldStart": "2026-09-08",
+  "fieldEnd": "2026-09-10",
+  "sampleSize": 2052,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10263-pres-iv-toluna-harris-interactive-rtl-14-septembre.pdf",
+  "source": "Commission des sondages – notice Toluna Harris Interactive pour M6 et RTL",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse Glucksmann, Attal et Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 9
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 14
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse Glucksmann et Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 10
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 17
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse Glucksmann et Attal",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 14
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse Hollande et Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 7
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 19
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   },
+   {
+    "id": "h5",
+    "label": "Hypothèse Hollande et Attal",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 7
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 10
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 5
+     }
+    ]
+   }
+  ],
+  "id": "toluna-harris-interactive-2026-09-08-2026-09-10-m6-et-rtl"
+ },
+ {
+  "institute": "OpinionWay",
+  "sponsor": "CNews",
+  "fieldStart": "2026-09-09",
+  "fieldEnd": "2026-09-10",
+  "sampleSize": 1001,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10260-pres-iv-opinionway-cnews-11-septembre.pdf",
+  "source": "Commission des sondages – notice OpinionWay pour CNews",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse 1 : François Hollande candidat socialiste",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 7
+     },
+     {
+      "candidateID": "bouamrane",
+      "name": "Karim Bouamrane",
+      "percent": 1
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 16
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 2
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 32
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse 2 : Ségolène Royal candidate socialiste",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 4
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "royal",
+      "name": "Ségolène Royal",
+      "percent": 3
+     },
+     {
+      "candidateID": "bouamrane",
+      "name": "Karim Bouamrane",
+      "percent": 1
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 16
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 2
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse 3 : Raphaël Glucksmann candidat socialiste (Arthaud et Bouamrane « <1 % », notés 0,5)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 9
+     },
+     {
+      "candidateID": "bouamrane",
+      "name": "Karim Bouamrane",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 7
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 2
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     }
+    ]
+   }
+  ],
+  "id": "opinionway-2026-09-09-2026-09-10-cnews"
+ },
+ {
+  "institute": "OpinionWay",
+  "sponsor": "Les Echos et Radio Classique (Présitrack, vague 2)",
+  "fieldStart": "2026-09-08",
+  "fieldEnd": "2026-09-09",
+  "sampleSize": 1001,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10259-pres-presitrack-v2-opinionway-les-echos-10-septembre.pdf",
+  "source": "Commission des sondages – notice OpinionWay Présitrack pour Les Echos",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse 1 : Attal et Philippe candidats du centre (Arthaud « <1 % », noté 0,5 ; lignes Le Pen/Zemmour inversées dans la notice, corrigées)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 9
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse 2 : Attal candidat du centre",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 14
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 12
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse 3 : Philippe candidat du centre",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 1
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 10
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 19
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 10
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     }
+    ]
+   }
+  ],
+  "id": "opinionway-2026-09-08-2026-09-09-les-echos-et-radio-classique-presitrack-vague-2"
+ },
+ {
+  "institute": "Ipsos bva",
+  "sponsor": "Le Monde, CEVIPOF, Fondation Jean-Jaurès, Institut Montaigne (Enquête électorale française, vague 3)",
+  "fieldStart": "2026-09-03",
+  "fieldEnd": "2026-09-09",
+  "sampleSize": 13060,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10262-pres-enquete-electorale-ipsos-bva-le-monde-13-septembre.pdf",
+  "source": "Commission des sondages – notice Ipsos bva Enquête électorale (Le Monde)",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse Glucksmann, Attal, Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 6
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 14
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse Glucksmann, Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 17.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33.5
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse Glucksmann, Attal",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 13
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 10
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4.5
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse Faure, Attal, Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 5
+     },
+     {
+      "candidateID": "faure",
+      "name": "Olivier Faure",
+      "percent": 4.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 7.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 16
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h5",
+    "label": "Hypothèse Faure, Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 5.5
+     },
+     {
+      "candidateID": "faure",
+      "name": "Olivier Faure",
+      "percent": 5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 21
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34.5
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h6",
+    "label": "Hypothèse Faure, Attal",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 5.5
+     },
+     {
+      "candidateID": "faure",
+      "name": "Olivier Faure",
+      "percent": 5.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 15.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 10.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4.5
+     }
+    ]
+   }
+  ],
+  "id": "ipsos-bva-2026-09-03-2026-09-09-le-monde-cevipof-fondation-jean-jaures-institut-montaigne-enquete-electorale-francaise-vague-3"
+ },
+ {
+  "institute": "OpinionWay",
+  "sponsor": "Sébastien Bonnal (candidat déclaré ; diffusion sur Facebook)",
+  "fieldStart": "2026-09-02",
+  "fieldEnd": "2026-09-04",
+  "sampleSize": 1034,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10264-pres-opinionway-facebook-15-septembre.pdf",
+  "source": "Commission des sondages – notice OpinionWay pour Sébastien Bonnal",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse unique avec Sébastien Bonnal (Bonnal « <1 % », noté 0,5)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 7
+     },
+     {
+      "candidateID": "bonnal",
+      "name": "Sébastien Bonnal",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     }
+    ]
+   }
+  ],
+  "id": "opinionway-2026-09-02-2026-09-04-sebastien-bonnal-candidat-declare-diffusion-sur-facebook"
+ },
+ {
+  "institute": "OpinionWay",
+  "sponsor": "Le JDD",
+  "fieldStart": "2026-09-02",
+  "fieldEnd": "2026-09-03",
+  "sampleSize": 1003,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10252-pres-iv-opinionway-jdd-7-septembre.pdf",
+  "source": "Commission des sondages – notice OpinionWay pour le JDD",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse 1 : Attal candidat du centre",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 13
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 11
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse 2 : Philippe candidat du centre",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 20
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse 3 : Attal et Philippe candidats",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 7
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     }
+    ]
+   }
+  ],
+  "id": "opinionway-2026-09-02-2026-09-03-le-jdd"
+ },
+ {
+  "institute": "Ipsos bva",
+  "sponsor": "Le Parisien",
+  "fieldStart": "2026-08-31",
+  "fieldEnd": "2026-09-02",
+  "sampleSize": 1500,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10250-pres-iv-ipsos-bva-le-parisien-5-septembre.pdf",
+  "source": "Commission des sondages – notice Ipsos bva pour Le Parisien",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse Glucksmann, Attal, Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 7.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 14.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse Glucksmann, Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 19
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34.5
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse Glucksmann, Attal",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 15
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 14
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 14
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse Faure, Attal, Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 5
+     },
+     {
+      "candidateID": "faure",
+      "name": "Olivier Faure",
+      "percent": 4.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 8.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 16.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34.5
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h5",
+    "label": "Hypothèse Faure, Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 5
+     },
+     {
+      "candidateID": "faure",
+      "name": "Olivier Faure",
+      "percent": 4.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 22.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34.5
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h6",
+    "label": "Hypothèse Faure, Attal",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 5.5
+     },
+     {
+      "candidateID": "faure",
+      "name": "Olivier Faure",
+      "percent": 5.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 15.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 10
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.5
+     }
+    ]
+   }
+  ],
+  "id": "ipsos-bva-2026-08-31-2026-09-02-le-parisien"
+ },
+ {
+  "institute": "Cluster17",
+  "sponsor": "Le Point",
+  "fieldStart": "2026-08-31",
+  "fieldEnd": "2026-09-01",
+  "sampleSize": 1711,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10251-pres-iv-cluster-17-le-point-5-septembre.pdf",
+  "source": "Commission des sondages – notice Cluster17 pour Le Point",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse 1 : Philippe et Villepin (chiffres redressés de la notice, à la décimale)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.9
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17.9
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.1
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2.2
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11.6
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 18.2
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 3.2
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2.9
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 30.0
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.5
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse 2 : Attal et Villepin (chiffres redressés de la notice, à la décimale)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.9
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 18.2
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2.1
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 13.5
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 4.0
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8.9
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2.8
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 31.6
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4.0
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse 3 : Philippe, Villepin, Ruffin et Lisnard, sans Tondelier (chiffres redressés de la notice, à la décimale)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.8
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16.9
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 1.9
+     },
+     {
+      "candidateID": "ruffin",
+      "name": "François Ruffin",
+      "percent": 3.9
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 10.8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 16.8
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6.5
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 4.2
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2.2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 29.2
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.3
+     }
+    ]
+   }
+  ],
+  "id": "cluster17-2026-08-31-2026-09-01-le-point"
+ },
+ {
+  "institute": "Elabe",
+  "sponsor": "BFMTV et La Tribune Dimanche",
+  "fieldStart": "2026-08-26",
+  "fieldEnd": "2026-08-28",
+  "sampleSize": 1501,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/aout/10245-pres-iv-elabe-29-aout.pdf",
+  "source": "Commission des sondages – notice Elabe",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Configuration Q3 : Glucksmann, Philippe, Villepin",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 14
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 17
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 2
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Configuration Q4 : Glucksmann, Attal, Villepin",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 14
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 14
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 12
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34.5
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Configuration Q5 : Hollande, Philippe, Lisnard",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 2
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 14
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 7.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 19.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 3
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Configuration Q6 : Ruffin, Hollande, Attal, Lisnard",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 4
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 14
+     },
+     {
+      "candidateID": "ruffin",
+      "name": "François Ruffin",
+      "percent": 6
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 8
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 12.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34.5
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4.5
+     }
+    ]
+   },
+   {
+    "id": "h5",
+    "label": "Configuration Q7 : Faure, Philippe, Villepin",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 4.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 14.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "faure",
+      "name": "Olivier Faure",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 20.5
+     },
+     {
+      "candidateID": "villepin",
+      "name": "Dominique de Villepin",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35.5
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h6",
+    "label": "Configuration Q8 : Glucksmann, Attal, Philippe (sans Tondelier)",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 14.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12.5
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 6.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 14.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   }
+  ],
+  "id": "elabe-2026-08-26-2026-08-28-bfmtv-et-la-tribune-dimanche"
+ },
+ {
+  "institute": "Ifop-Fiducial",
+  "sponsor": "LCI, Le Figaro et Sud Radio (baromètre, vague 5)",
+  "fieldStart": "2026-08-24",
+  "fieldEnd": "2026-08-25",
+  "sampleSize": 1598,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/aout/10242-pres-barometre-election-pres-iv-v5-ifop-26-aout.pdf",
+  "source": "Commission des sondages – notice Ifop baromètre de l'élection présidentielle vague 5",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse Philippe et Attal candidats",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 14.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.5
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse Philippe candidat du bloc central",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 12
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 18
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.5
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse Attal candidat du bloc central",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 15
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 14
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse Philippe (bloc central) et Glucksmann candidat unique de la gauche non LFI",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 18
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 15
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 19
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 33
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3.5
+     }
+    ]
+   },
+   {
+    "id": "h5",
+    "label": "Hypothèse Attal (bloc central) et Glucksmann candidat unique de la gauche non LFI",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 18.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 17
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h6",
+    "label": "Hypothèse Philippe (bloc central) et Hollande candidat unique de la gauche non LFI",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 19
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 12
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 21
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 8
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 34
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 2.5
+     }
+    ]
+   },
+   {
+    "id": "h7",
+    "label": "Hypothèse Le Maire candidat du bloc central",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 18
+     },
+     {
+      "candidateID": "le-maire",
+      "name": "Bruno Le Maire",
+      "percent": 6
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 12
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   }
+  ],
+  "id": "ifop-fiducial-2026-08-24-2026-08-25-lci-le-figaro-et-sud-radio-barometre-vague-5"
+ },
+ {
+  "institute": "Toluna Harris Interactive",
+  "sponsor": "M6 et RTL",
+  "fieldStart": "2026-08-18",
+  "fieldEnd": "2026-08-19",
+  "sampleSize": 1764,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/files/notices/2026/aout/10239-pres-toluna-harris-interactive-rtl-24-aout.pdf",
+  "source": "Commission des sondages – notice Toluna Harris Interactive pour M6 et RTL",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse Glucksmann, Attal et Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 16
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 10
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 14
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 6
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse Glucksmann et Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 10
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 17
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 3
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse Glucksmann et Attal",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 37
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 3
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse Hollande et Philippe",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 8
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 19
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h5",
+    "label": "Hypothèse Hollande et Attal",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 3
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 4
+     },
+     {
+      "candidateID": "hollande",
+      "name": "François Hollande",
+      "percent": 8
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 14
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 9
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 38
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   }
+  ],
+  "id": "toluna-harris-interactive-2026-08-18-2026-08-19-m6-et-rtl"
+ }
+]

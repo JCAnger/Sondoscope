@@ -1,0 +1,39 @@
+name: Mise à jour des sondages
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Télécharger les sources
+        run: |
+          curl -fsSL -o pipeline/raw/sondages.json https://www.data.gouv.fr/api/1/datasets/r/4410135d-b2ae-44bc-8b7f-31780ed140dc
+          curl -fsSL -o pipeline/raw/candidatures.json https://www.data.gouv.fr/api/1/datasets/r/06237c53-76bd-4224-9805-418e125f0493
+      - name: Tests
+        run: python -m unittest discover -s pipeline/tests
+      - name: Construire polls.json
+        run: python pipeline/build_polls.py
+      - name: Archiver
+        run: |
+          git config user.name "sondoscope-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add pipeline/archive
+          git diff --cached --quiet || git commit -m "Archive des sondages"
+          git push
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - uses: actions/deploy-pages@v4

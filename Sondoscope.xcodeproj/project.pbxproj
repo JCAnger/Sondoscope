@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {
+};
+objectVersion = 77;
+objects = {
+
+/* Begin PBXBuildFile section */
+000000000000000000000047 /* SondoscopeWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 000000000000000000000015; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+000000000000000000000048 = {
+isa = PBXContainerItemProxy;
+containerPortal = 000000000000000000000001;
+proxyType = 1;
+remoteGlobalIDString = 00000000000000000000001F;
+remoteInfo = SondoscopeWidget;
+};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+000000000000000000000046 /* Embed Foundation Extensions */ = {
+isa = PBXCopyFilesBuildPhase;
+buildActionMask = 2147483647;
+dstPath = "";
+dstSubfolderSpec = 13;
+files = (
+000000000000000000000047,
+);
+name = "Embed Foundation Extensions";
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+000000000000000000000014 /* Sondoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sondoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+000000000000000000000015 /* SondoscopeWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SondoscopeWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+000000000000000000000016 /* SondoscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SondoscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+000000000000000000000017 = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sondoscope-macOS.entitlements"; sourceTree = "<group>"; };
+000000000000000000000018 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SondoscopeWidget-Info.plist"; sourceTree = "<group>"; };
+000000000000000000000019 = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+00000000000000000000000A /* Sondoscope */ = {
+isa = PBXFileSystemSynchronizedRootGroup;
+path = Sondoscope;
+sourceTree = "<group>";
+};
+00000000000000000000000B /* Shared */ = {
+isa = PBXFileSystemSynchronizedRootGroup;
+path = Shared;
+sourceTree = "<group>";
+};
+00000000000000000000000C /* SondoscopeWidget */ = {
+isa = PBXFileSystemSynchronizedRootGroup;
+path = SondoscopeWidget;
+sourceTree = "<group>";
+};
+00000000000000000000000D /* SondoscopeTests */ = {
+isa = PBXFileSystemSynchronizedRootGroup;
+path = SondoscopeTests;
+sourceTree = "<group>";
+};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+000000000000000000000029 /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+000000000000000000000033 /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+00000000000000000000003D /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+000000000000000000000002 = {
+isa = PBXGroup;
+children = (
+000000000000000000000019,
+00000000000000000000000A,
+00000000000000000000000B,
+00000000000000000000000C,
+00000000000000000000000D,
+000000000000000000000004,
+000000000000000000000003,
+);
+sourceTree = "<group>";
+};
+000000000000000000000004 /* Config */ = {
+isa = PBXGroup;
+children = (
+000000000000000000000017,
+000000000000000000000018,
+);
+path = Config;
+sourceTree = "<group>";
+};
+000000000000000000000003 /* Products */ = {
+isa = PBXGroup;
+children = (
+000000000000000000000014,
+000000000000000000000015,
+000000000000000000000016,
+);
+name = Products;
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+00000000000000000000001E /* Sondoscope */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = 000000000000000000000051;
+buildPhases = (
+000000000000000000000028,
+000000000000000000000029,
+00000000000000000000002A,
+000000000000000000000046,
+);
+buildRules = (
+);
+dependencies = (
+000000000000000000000049,
+);
+fileSystemSynchronizedGroups = (
+00000000000000000000000A,
+00000000000000000000000B,
+);
+name = Sondoscope;
+productName = Sondoscope;
+productReference = 000000000000000000000014;
+productType = "com.apple.product-type.application";
+};
+00000000000000000000001F /* SondoscopeWidget */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = 000000000000000000000052;
+buildPhases = (
+000000000000000000000032,
+000000000000000000000033,
+000000000000000000000034,
+);
+buildRules = (
+);
+dependencies = (
+);
+fileSystemSynchronizedGroups = (
+00000000000000000000000B,
+00000000000000000000000C,
+);
+name = SondoscopeWidget;
+productName = SondoscopeWidget;
+productReference = 000000000000000000000015;
+productType = "com.apple.product-type.app-extension";
+};
+000000000000000000000020 /* SondoscopeTests */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = 000000000000000000000053;
+buildPhases = (
+00000000000000000000003C,
+00000000000000000000003D,
+00000000000000000000003E,
+);
+buildRules = (
+);
+dependencies = (
+);
+fileSystemSynchronizedGroups = (
+00000000000000000000000B,
+00000000000000000000000D,
+);
+name = SondoscopeTests;
+productName = SondoscopeTests;
+productReference = 000000000000000000000016;
+productType = "com.apple.product-type.bundle.unit-test";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+000000000000000000000001 /* Project object */ = {
+isa = PBXProject;
+attributes = {
+BuildIndependentTargetsInParallel = 1;
+LastSwiftUpdateCheck = 2630;
+LastUpgradeCheck = 2700;
+};
+buildConfigurationList = 000000000000000000000050;
+developmentRegion = fr;
+hasScannedForEncodings = 0;
+knownRegions = (
+fr,
+Base,
+);
+mainGroup = 000000000000000000000002;
+minimizedProjectReferenceProxies = 1;
+preferredProjectObjectVersion = 77;
+productRefGroup = 000000000000000000000003;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+00000000000000000000001E,
+00000000000000000000001F,
+000000000000000000000020,
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+00000000000000000000002A /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+000000000000000000000034 /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+00000000000000000000003E /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+000000000000000000000028 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+000000000000000000000032 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+00000000000000000000003C /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+000000000000000000000049 = {
+isa = PBXTargetDependency;
+target = 00000000000000000000001F;
+targetProxy = 000000000000000000000048;
+};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+00000000000000000000005A /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+COPY_PHASE_STRIP = NO;
+DEAD_CODE_STRIPPING = YES;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+ENABLE_USER_SCRIPT_SANDBOXING = YES;
+GCC_C_LANGUAGE_STANDARD = gnu17;
+GCC_NO_COMMON_BLOCKS = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+MACOSX_DEPLOYMENT_TARGET = 26.0;
+SDKROOT = auto;
+SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+SUPPORTS_MACCATALYST = NO;
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+DEBUG_INFORMATION_FORMAT = dwarf;
+ENABLE_TESTABILITY = YES;
+GCC_DYNAMIC_NO_PIC = NO;
+GCC_OPTIMIZATION_LEVEL = 0;
+GCC_PREPROCESSOR_DEFINITIONS = (
+"DEBUG=1",
+"$(inherited)",
+);
+ONLY_ACTIVE_ARCH = YES;
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+};
+name = Debug;
+};
+00000000000000000000005B /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+COPY_PHASE_STRIP = NO;
+DEAD_CODE_STRIPPING = YES;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+ENABLE_USER_SCRIPT_SANDBOXING = YES;
+GCC_C_LANGUAGE_STANDARD = gnu17;
+GCC_NO_COMMON_BLOCKS = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+MACOSX_DEPLOYMENT_TARGET = 26.0;
+SDKROOT = auto;
+SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+SUPPORTS_MACCATALYST = NO;
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+ENABLE_NS_ASSERTIONS = NO;
+SWIFT_COMPILATION_MODE = wholemodule;
+VALIDATE_PRODUCT = YES;
+};
+name = Release;
+};
+00000000000000000000005C /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = 4S53H48BX8;
+MARKETING_VERSION = 1.0;
+PRODUCT_NAME = "$(TARGET_NAME)";
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Config/Sondoscope-macOS.entitlements";
+"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+ENABLE_PREVIEWS = YES;
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_KEY_CFBundleDisplayName = Sondoscope;
+INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
+"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.jeancharlesanger.Sondoscope;
+};
+name = Debug;
+};
+00000000000000000000005D /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = 4S53H48BX8;
+MARKETING_VERSION = 1.0;
+PRODUCT_NAME = "$(TARGET_NAME)";
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Config/Sondoscope-macOS.entitlements";
+"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+ENABLE_PREVIEWS = YES;
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_KEY_CFBundleDisplayName = Sondoscope;
+INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
+"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.jeancharlesanger.Sondoscope;
+};
+name = Release;
+};
+00000000000000000000005E /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = 4S53H48BX8;
+MARKETING_VERSION = 1.0;
+PRODUCT_NAME = "$(TARGET_NAME)";
+"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Config/Sondoscope-macOS.entitlements";
+"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_FILE = "Config/SondoscopeWidget-Info.plist";
+INFOPLIST_KEY_CFBundleDisplayName = Sondoscope;
+LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @executable_path/../../Frameworks";
+"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks @executable_path/../../../../Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.jeancharlesanger.Sondoscope.widget;
+SKIP_INSTALL = YES;
+};
+name = Debug;
+};
+00000000000000000000005F /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = 4S53H48BX8;
+MARKETING_VERSION = 1.0;
+PRODUCT_NAME = "$(TARGET_NAME)";
+"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Config/Sondoscope-macOS.entitlements";
+"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_FILE = "Config/SondoscopeWidget-Info.plist";
+INFOPLIST_KEY_CFBundleDisplayName = Sondoscope;
+LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @executable_path/../../Frameworks";
+"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks @executable_path/../../../../Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.jeancharlesanger.Sondoscope.widget;
+SKIP_INSTALL = YES;
+};
+name = Release;
+};
+000000000000000000000060 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = 4S53H48BX8;
+MARKETING_VERSION = 1.0;
+PRODUCT_NAME = "$(TARGET_NAME)";
+GENERATE_INFOPLIST_FILE = YES;
+PRODUCT_BUNDLE_IDENTIFIER = com.jeancharlesanger.SondoscopeTests;
+};
+name = Debug;
+};
+000000000000000000000061 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = 4S53H48BX8;
+MARKETING_VERSION = 1.0;
+PRODUCT_NAME = "$(TARGET_NAME)";
+GENERATE_INFOPLIST_FILE = YES;
+PRODUCT_BUNDLE_IDENTIFIER = com.jeancharlesanger.SondoscopeTests;
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+000000000000000000000050 = {
+isa = XCConfigurationList;
+buildConfigurations = (
+00000000000000000000005A,
+00000000000000000000005B,
+);
+defaultConfigurationName = Release;
+};
+000000000000000000000051 = {
+isa = XCConfigurationList;
+buildConfigurations = (
+00000000000000000000005C,
+00000000000000000000005D,
+);
+defaultConfigurationName = Release;
+};
+000000000000000000000052 = {
+isa = XCConfigurationList;
+buildConfigurations = (
+00000000000000000000005E,
+00000000000000000000005F,
+);
+defaultConfigurationName = Release;
+};
+000000000000000000000053 = {
+isa = XCConfigurationList;
+buildConfigurations = (
+000000000000000000000060,
+000000000000000000000061,
+);
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+};
+rootObject = 000000000000000000000001 /* Project object */;
+}
