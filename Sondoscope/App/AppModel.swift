@@ -125,13 +125,23 @@ final class AppModel {
         now = Date()
         guard !isSilent else { return }
         do {
-            if let remote = try await store.fetchRemote() {
+            if let remote = try await store.fetchRemote(), remote != dataset {
                 dataset = remote
                 datasetVersion += 1
             }
             lastRefreshFailed = false
+            lastRefresh = Date()
         } catch {
             lastRefreshFailed = true
         }
     }
+
+    /// Appelé au retour au premier plan : l'app peut rester ouverte des jours en arrière-plan.
+    func refreshIfStale() async {
+        guard phase == .ready else { return }
+        if let lastRefresh, Date().timeIntervalSince(lastRefresh) < 30 * 60 { return }
+        await refresh()
+    }
+
+    @ObservationIgnored private var lastRefresh: Date?
 }
