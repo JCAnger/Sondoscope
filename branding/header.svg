@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500" role="img" aria-label="Sondoscope, les sondages de la présidentielle 2027">
+  <defs>
+    <!-- Fond : Palette.foam → sky → mint -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EEF9FA"/>
+      <stop offset=".55" stop-color="#BFE3F7"/>
+      <stop offset="1" stop-color="#C4EFE0"/>
+    </linearGradient>
+    <!-- Icône : mêmes teintes que branding/icon-light.svg -->
+    <linearGradient id="icon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#86CDEE"/>
+      <stop offset="1" stop-color="#86E0C3"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#12344A" flood-opacity=".18"/>
+    </filter>
+    <clipPath id="squircle">
+      <rect width="1024" height="1024" rx="230"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1500" height="500" fill="url(#bg)"/>
+  <circle cx="230" cy="60" r="220" fill="#C4EFE0" opacity=".8" filter="url(#blur)"/>
+  <circle cx="1320" cy="460" r="240" fill="#BFE3F7" opacity=".9" filter="url(#blur)"/>
+  <circle cx="1180" cy="40" r="160" fill="#FFFFFF" opacity=".55" filter="url(#blur)"/>
+
+  <!-- Courbe décorative, abstraite : ne représente aucune donnée -->
+  <path d="M0 420 C260 380 420 450 700 400 S1150 330 1500 370" fill="none" stroke="#1F7FA8" stroke-opacity=".12" stroke-width="3"/>
+  <path d="M0 455 C300 430 520 480 820 440 S1250 400 1500 420" fill="none" stroke="#1E8E76" stroke-opacity=".10" stroke-width="3"/>
+
+  <!-- Icône de l'app -->
+  <g transform="translate(130 110) scale(.273)" filter="url(#shadow)">
+    <g clip-path="url(#squircle)">
+      <rect width="1024" height="1024" fill="url(#icon)"/>
+      <ellipse cx="512" cy="120" rx="620" ry="280" fill="url(#gloss)"/>
+      <rect x="356" y="330" width="84" height="230" rx="42" fill="#FFFFFF"/>
+      <rect x="470" y="250" width="84" height="310" rx="42" fill="#FFFFFF"/>
+      <rect x="584" y="300" width="84" height="260" rx="42" fill="#FFFFFF"/>
+      <path d="M290 610 Q290 540 360 540 H664 Q734 540 734 610 V720 Q734 790 664 790 H360 Q290 790 290 720 Z" fill="#FFFFFF"/>
+      <path d="M300 580 L512 690 L724 580" fill="none" stroke="#2C86AE" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M300 300 C400 300 430 190 540 190 S660 240 730 170" fill="none" stroke="#2C86AE" stroke-width="30" stroke-linecap="round"/>
+      <circle cx="730" cy="170" r="34" fill="#2C86AE"/>
+    </g>
+  </g>
+
+  <!-- Textes -->
+  <g font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif" fill="#12344A">
+    <text x="470" y="225" font-size="112" font-weight="700" letter-spacing="-2">Sondoscope</text>
+    <text x="474" y="292" font-size="40" font-weight="500" fill="#1F7FA8">Les sondages de la présidentielle 2027</text>
+    <text x="474" y="352" font-size="26" font-weight="400" opacity=".72">Moyenne pondérée  ·  Chaque sondage sourcé  ·  iPhone, iPad, Mac</text>
+  </g>
+
+  <!-- Pastille de neutralité -->
+  <g transform="translate(474 382)">
+    <rect width="440" height="44" rx="22" fill="#FFFFFF" fill-opacity=".6" stroke="#FFFFFF" stroke-opacity=".9"/>
+    <text x="220" y="29" text-anchor="middle" font-family="-apple-system, 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#12344A" opacity=".8">Indépendante · sans lien avec un parti</text>
+  </g>
+</svg>
