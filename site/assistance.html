@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sondoscope · Assistance</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 17px/1.6 -apple-system, system-ui, sans-serif; max-width: 40rem; margin: 0 auto; padding: 2rem 1.25rem; color: #1d2a3a; background: #f4f8fc; }
+  h1 { font-size: 1.6rem; color: #2f6fa8; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; color: #3c8a6e; }
+  a { color: #2f6fa8; }
+  .contact { padding: 1rem 1.25rem; border-radius: 14px; background: #e3f0fa; }
+  footer { margin-top: 3rem; font-size: .9rem; color: #5a6b7d; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e3ebf3; background: #121a24; }
+    h1, a { color: #8cc1f0; }
+    h2 { color: #8fd4b8; }
+    .contact { background: #1c2a3a; }
+    footer { color: #9aabbd; }
+  }
+</style>
+</head>
+<body>
+<h1>Assistance Sondoscope</h1>
+<p>Sondoscope réunit les sondages d'intentions de vote pour l'élection présidentielle française de 2027 et en calcule une moyenne pondérée. L'application est disponible sur iPhone, iPad et Mac, avec un widget.</p>
+
+<div class="contact">
+  <strong>Nous contacter</strong><br>
+  Une question, un problème ou une erreur dans les données ? Écrivez à
+  <a href="mailto:jcanger13@me.com?subject=Sondoscope">jcanger13@me.com</a>.
+  Pour un bug, précisez votre appareil, la version du système et, si possible, une capture d'écran.
+</div>
+
+<h2>D'où viennent les données ?</h2>
+<p>Des jeux de données ouverts publiés sur <a href="https://www.data.gouv.fr">data.gouv.fr</a>. Ils sont mis à jour une fois par jour. Chaque sondage affiche l'institut, le commanditaire, les dates, la taille de l'échantillon et un lien vers sa notice officielle sur le site de la <a href="https://www.commission-des-sondages.fr/notices/">Commission des sondages</a>.</p>
+
+<h2>Comment la moyenne est-elle calculée ?</h2>
+<p>La moyenne prend en compte les sondages des 60 derniers jours. Les plus récents comptent davantage : le poids d'un sondage diminue de moitié tous les 7 jours. Les échantillons plus grands pèsent un peu plus, dans une limite fixée. Pour qu'un institut très actif ne domine pas, chaque sondage plus ancien d'un même institut compte moitié moins que le suivant. Dans chaque sondage, on retient l'hypothèse de premier tour la plus proche de la liste des candidats suivis. Le détail est disponible dans l'application, rubrique « À propos », puis « Comment c'est calculé ? ».</p>
+
+<h2>Un sondage est-il une prédiction ?</h2>
+<p>Non. Un sondage mesure un rapport de force à une date donnée. Ce n'est ni un pronostic ni un résultat. Quand les fourchettes de deux candidats se recouvrent, l'écart entre eux n'est pas significatif.</p>
+
+<h2>Pourquoi l'application n'affiche-t-elle plus rien ?</h2>
+<p>La loi interdit de publier des sondages la veille et le jour du scrutin. Sondoscope n'affiche donc aucun sondage ni aucune moyenne du 17 avril 2027 à 0 h au 18 avril 2027 à 20 h, puis du 1er mai 2027 à 0 h au 2 mai 2027 à 20 h (heure de Paris). L'affichage reprend automatiquement ensuite.</p>
+
+<h2>L'application fonctionne-t-elle hors ligne ?</h2>
+<p>Oui. La dernière version des données téléchargée reste sur l'appareil. Une connexion permet de récupérer les sondages les plus récents.</p>
+
+<h2>Sondoscope soutient-il un candidat ?</h2>
+<p>Non. L'application est indépendante, sans lien avec un parti, un candidat ou un institut. Elle ne recommande aucun vote et ne classe pas les candidats sur le fond.</p>
+
+<h2>Confidentialité</h2>
+<p>Pas de compte, pas de publicité, pas de suivi. Voir la <a href="confidentialite.html">politique de confidentialité</a>.</p>
+
+<footer>Sondoscope est une application indépendante, sans lien avec un parti, un candidat ou un institut de sondage.</footer>
+</body>
+</html>
