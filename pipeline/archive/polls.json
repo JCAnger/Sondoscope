@@ -1,5 +1,260 @@
 [
  {
+  "institute": "Ifop",
+  "sponsor": "LCI",
+  "fieldStart": "2026-10-27",
+  "fieldEnd": "2026-10-29",
+  "sampleSize": 1501,
+  "noticeURL": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2376",
+  "source": "Commission des sondages – notice n° 10351, Ifop pour LCI (intentions de vote au 1er tour)",
+  "hypotheses": [
+   {
+    "id": "h1",
+    "label": "Hypothèse Attal, Philippe, Retailleau et Lisnard",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 18
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 10
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 9.5
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 4
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 35
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4.5
+     }
+    ]
+   },
+   {
+    "id": "h2",
+    "label": "Hypothèse Attal (bloc central), Retailleau et Lisnard",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 13
+     },
+     {
+      "candidateID": "attal",
+      "name": "Gabriel Attal",
+      "percent": 9
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 5
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 7.5
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4.5
+     }
+    ]
+   },
+   {
+    "id": "h3",
+    "label": "Hypothèse Philippe (bloc central) et Retailleau seul à droite",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 1
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 1.5
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3.5
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11.5
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 15
+     },
+     {
+      "candidateID": "retailleau",
+      "name": "Bruno Retailleau",
+      "percent": 7
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 37
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   },
+   {
+    "id": "h4",
+    "label": "Hypothèse Philippe (bloc central) et Lisnard seul à droite",
+    "round": 1,
+    "scores": [
+     {
+      "candidateID": "arthaud",
+      "name": "Nathalie Arthaud",
+      "percent": 0.5
+     },
+     {
+      "candidateID": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "percent": 17.5
+     },
+     {
+      "candidateID": "roussel",
+      "name": "Fabien Roussel",
+      "percent": 2
+     },
+     {
+      "candidateID": "tondelier",
+      "name": "Marine Tondelier",
+      "percent": 3
+     },
+     {
+      "candidateID": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "percent": 11
+     },
+     {
+      "candidateID": "philippe",
+      "name": "Édouard Philippe",
+      "percent": 15
+     },
+     {
+      "candidateID": "lisnard",
+      "name": "David Lisnard",
+      "percent": 9
+     },
+     {
+      "candidateID": "dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "percent": 2
+     },
+     {
+      "candidateID": "le-pen",
+      "name": "Marine Le Pen",
+      "percent": 36
+     },
+     {
+      "candidateID": "zemmour",
+      "name": "Éric Zemmour",
+      "percent": 4
+     }
+    ]
+   }
+  ],
+  "id": "ifop-2026-10-27-2026-10-29-lci"
+ },
+ {
   "institute": "Ipsos bva",
   "sponsor": "Le Parisien",
   "fieldStart": "2026-10-21",
