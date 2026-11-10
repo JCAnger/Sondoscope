@@ -33,6 +33,9 @@ jobs:
           git add pipeline/archive
           git diff --cached --quiet || git commit -m "Archive des sondages"
           git push
+      - name: Ajouter les pages statiques
+        # public/ n'existe pas pendant le silence électoral : on ne déploie rien dans ce cas.
+        run: if [ -d public ]; then cp -R site/. public/; fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
