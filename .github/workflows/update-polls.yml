@@ -14,8 +14,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Télécharger les sources
@@ -36,7 +36,7 @@ jobs:
       - name: Ajouter les pages statiques
         # public/ n'existe pas pendant le silence électoral : on ne déploie rien dans ce cas.
         run: if [ -d public ]; then cp -R site/. public/; fi
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: public
-      - uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v5
