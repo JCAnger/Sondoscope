@@ -43,6 +43,7 @@ struct TrendView: View {
         .refreshable { await model.refresh() }
         .navigationTitle("Tendance")
         .toolbar {
+            RefreshToolbarItem()
             ToolbarItem {
                 Picker("Candidats suivis", selection: Bindable(model).scope) {
                     ForEach(CandidateScope.allCases) { Text($0.label).tag($0) }
@@ -92,14 +93,7 @@ struct TrendView: View {
             Text("1er tour").font(.title2.bold())
             Text("\(result.pollCount) sondage(s) pris en compte")
                 .font(.subheadline).foregroundStyle(.secondary)
-            if let generated = model.activeDataset.generatedAt {
-                Text("Données mises à jour le \(Formatting.day(generated))")
-                    .font(.footnote).foregroundStyle(.secondary)
-            }
-            if model.lastRefreshFailed {
-                Label("Hors ligne : dernières données disponibles affichées", systemImage: "wifi.slash")
-                    .font(.footnote).foregroundStyle(.secondary)
-            }
+            DataStatusLine()
         }
     }
 

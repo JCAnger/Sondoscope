@@ -22,6 +22,15 @@ App SwiftUI (iPhone, iPad, Mac natif, widgets) qui suit les intentions de vote �
 1. Déplacer `docs/update-polls.yml` vers `.github/workflows/`, pousser le dépôt sur GitHub, activer Pages avec la source « GitHub Actions ».
 2. Renseigner `AppConfig.remoteDataURL`.
 
+Le workflow tourne toutes les trois heures, de 6 h à minuit.
+
+## Ajouter un sondage sans attendre 2027etmoi
+1. Dans `pipeline/manual/sondages.json`, ajouter l'enquête à `sondages`, au format du fichier 2027etmoi (`institut`, `commanditaire`, `terrain_debut`, `terrain_fin`, `echantillon`, `source.url` vers la notice de la Commission des sondages, `hypotheses` avec les identifiants de `candidatures.json`). Renseigner `mise_a_jour`.
+2. Recopier les chiffres de la notice officielle, jamais d'un article de presse.
+3. Pousser sur `main` : la publication part aussitôt. Un identifiant de candidat inconnu, une notice absente ou un total loin de 100 bloquent la publication.
+
+Quand 2027etmoi publie la même enquête (même institut, mêmes dates), sa version remplace la saisie manuelle, y compris dans l'archive. L'entrée peut alors être retirée du fichier.
+
 Le fichier de 2027etmoi ne couvre qu'environ sept semaines : c'est `pipeline/archive/` qui conserve l'historique. Vérifier avant mise en ligne que l'accès automatisé à data.gouv.fr est autorisé pour ce téléchargement.
 
 ## Moyenne

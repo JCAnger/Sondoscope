@@ -46,6 +46,38 @@ struct InfoBubble: View {
     }
 }
 
+/// Date des données et état du dernier téléchargement, en tête de Tendance et de la liste des sondages.
+struct DataStatusLine: View {
+    @Environment(AppModel.self) private var model
+
+    var body: some View {
+        if let generated = model.activeDataset.generatedAt {
+            Text("Données mises à jour le \(Formatting.day(generated))")
+                .font(.footnote).foregroundStyle(.secondary)
+        }
+        if model.lastRefreshFailed {
+            Label("Hors ligne : dernières données disponibles affichées", systemImage: "wifi.slash")
+                .font(.footnote).foregroundStyle(.secondary)
+        }
+    }
+}
+
+/// Bouton de barre d'outils : seul moyen d'actualiser sur Mac, où le geste « tirer pour actualiser » n'existe pas.
+struct RefreshToolbarItem: ToolbarContent {
+    @Environment(AppModel.self) private var model
+
+    var body: some ToolbarContent {
+        ToolbarItem {
+            if model.isRefreshing {
+                ProgressView().controlSize(.small)
+            } else {
+                Button("Actualiser", systemImage: "arrow.clockwise") { Task { await model.refresh() } }
+                    .disabled(model.isSilent)
+            }
+        }
+    }
+}
+
 struct DemoBanner: View {
     var body: some View {
         #if DEBUG

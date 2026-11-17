@@ -24,6 +24,10 @@ struct PollsListView: View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 12) {
                 DemoBanner()
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("\(polls.count) sondage(s)").font(.subheadline).foregroundStyle(.secondary)
+                    DataStatusLine()
+                }
                 HStack {
                     Picker("Institut", selection: $institute) {
                         ForEach(institutes, id: \.self) { Text($0).tag($0) }
@@ -55,6 +59,7 @@ struct PollsListView: View {
         }
         .refreshable { await model.refresh() }
         .navigationTitle("Sondages")
+        .toolbar { RefreshToolbarItem() }
     }
 }
 

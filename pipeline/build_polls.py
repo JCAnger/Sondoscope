@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Construit public/polls.json à partir des fichiers 2027etmoi de pipeline/raw."""
+"""Construit public/polls.json à partir des fichiers 2027etmoi de pipeline/raw.
+
+pipeline/manual/sondages.json, au même format que le fichier 2027etmoi, permet d'ajouter
+un sondage dès la parution de sa notice, sans attendre la source. Quand 2027etmoi le reprend,
+sa version remplace la saisie manuelle.
+"""
 from __future__ import annotations
 
 import datetime as dt
@@ -12,6 +17,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = pathlib.Path(__file__).resolve().parent
 RAW = ROOT / "raw"
+MANUAL = ROOT / "manual" / "sondages.json"
 ARCHIVE = ROOT / "archive" / "polls.json"
 PUBLIC = ROOT.parent / "public" / "polls.json"
 PARIS = ZoneInfo("Europe/Paris")
@@ -22,6 +28,8 @@ SOURCES = [
     {"name": "2027etmoi (candidatures)", "licence": "Licence Ouverte 2.0",
      "url": "https://www.data.gouv.fr/datasets/candidatures-a-lelection-presidentielle-2027-statuts-sources"},
 ]
+MANUAL_SOURCE = {"name": "Notices de la Commission des sondages (saisie Sondoscope)", "licence": "Notices publiques",
+                 "url": "https://www.commission-des-sondages.fr/notices/"}
 
 SILENCE = [
     (dt.datetime(2027, 4, 17, 0, 0, tzinfo=PARIS), dt.datetime(2027, 4, 18, 20, 0, tzinfo=PARIS)),
@@ -62,13 +70,23 @@ def validate_poll(poll: dict) -> None:
             raise ValidationError(f"total {total} loin de 100 : {poll['id']}/{hypothesis['id']}")
 
 
+def same_survey(a: dict, b: dict) -> bool:
+    """Même enquête malgré une graphie différente (« Ifop » / « Ifop-Fiducial », commanditaire abrégé)."""
+    first_word = lambda poll: slug(poll["institute"]).split("-")[0]
+    return (a["fieldStart"], a["fieldEnd"]) == (b["fieldStart"], b["fieldEnd"]) and first_word(a) == first_word(b)
+
+
 def merge(archive: list[dict], fresh: list[dict]) -> list[dict]:
     """Fusionne sans jamais effacer : la version la plus récente d'un sondage remplace l'ancienne."""
     merged = {poll["id"]: poll for poll in archive}
     for poll in fresh:
         validate_poll(poll)
         merged[poll["id"]] = poll
-    return sorted(merged.values(), key=lambda p: (p["fieldEnd"], p["id"]), reverse=True)
+    # Une saisie manuelle s'efface dès que 2027etmoi publie la même enquête, même archivée.
+    sourced = [poll for poll in merged.values() if not poll.get("manual")]
+    kept = [poll for poll in merged.values()
+            if not (poll.get("manual") and any(same_survey(poll, other) for other in sourced))]
+    return sorted(kept, key=lambda p: (p["fieldEnd"], p["id"]), reverse=True)
 
 
 STATUS = {
@@ -122,6 +140,21 @@ def adapt_poll(raw: dict, names: dict[str, str]) -> dict:
     return poll
 
 
+def load_manual(names: dict[str, str]) -> tuple[list[dict], str | None]:
+    """Sondages saisis à la main. Les identifiants inconnus sont refusés : une faute de frappe créerait un faux candidat."""
+    if not MANUAL.exists():
+        return [], None
+    manual_file = json.loads(MANUAL.read_text(encoding="utf-8"))
+    known = names | manual_file.get("noms_hors_liste", {})
+    polls = []
+    for item in manual_file.get("sondages", []):
+        unknown = {key for h in item["hypotheses"] for key in h["scores"]} - known.keys()
+        if unknown:
+            raise ValidationError(f"candidats inconnus dans la saisie manuelle : {', '.join(sorted(unknown))}")
+        polls.append(adapt_poll(item, known) | {"manual": True})
+    return polls, manual_file.get("mise_a_jour") if polls else None
+
+
 def load_raw() -> tuple[list[dict], list[dict], str]:
     """Renvoie (candidats, sondages, date de mise à jour des sources)."""
     missing = [name for name in ("sondages.json", "candidatures.json") if not (RAW / name).exists()]
@@ -132,8 +165,10 @@ def load_raw() -> tuple[list[dict], list[dict], str]:
     candidates = [adapt_candidate(item) for item in candidates_file["candidats"]]
     names = {item["id"]: item["name"] for item in candidates} | polls_file.get("noms_hors_liste", {})
     polls = [adapt_poll(item, names) for item in polls_file["sondages"]]
-    updated = max(polls_file["mise_a_jour"], candidates_file["mise_a_jour"])
-    return candidates, polls, updated
+    manual, manual_updated = load_manual(names)
+    updated = max(d for d in (polls_file["mise_a_jour"], candidates_file["mise_a_jour"], manual_updated) if d)
+    # Les saisies manuelles passent en premier : à identifiant égal, la version 2027etmoi l'emporte.
+    return candidates, manual + polls, updated
 
 
 def main() -> int:
@@ -150,7 +185,7 @@ def main() -> int:
     PUBLIC.write_text(json.dumps({
         "schemaVersion": 1,
         "generatedAt": updated,
-        "sources": SOURCES,
+        "sources": SOURCES + ([MANUAL_SOURCE] if any(p.get("manual") for p in polls) else []),
         "silencePeriods": [],
         "candidates": candidates,
         "polls": polls,

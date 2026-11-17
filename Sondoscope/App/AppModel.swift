@@ -9,6 +9,7 @@ final class AppModel {
     private(set) var dataset: Dataset = .empty
     private(set) var phase: Phase = .loading
     private(set) var lastRefreshFailed = false
+    private(set) var isRefreshing = false
     var scope: CandidateScope = .declared
     /// Par défaut, les hypothèses de retrait ou de candidature unique sont écartées de la moyenne.
     var excludeReducedScenarios = true
@@ -123,7 +124,10 @@ final class AppModel {
 
     func refresh() async {
         now = Date()
-        guard !isSilent else { return }
+        // Bouton, ⌘R, geste et minuterie peuvent se chevaucher : un seul téléchargement à la fois.
+        guard !isSilent, !isRefreshing else { return }
+        isRefreshing = true
+        defer { isRefreshing = false }
         do {
             if let remote = try await store.fetchRemote(), remote != dataset {
                 dataset = remote
@@ -141,6 +145,16 @@ final class AppModel {
         guard phase == .ready else { return }
         if let lastRefresh, Date().timeIntervalSince(lastRefresh) < 30 * 60 { return }
         await refresh()
+    }
+
+    /// Tant que l'app reste ouverte (une fenêtre Mac peut rester active des jours), vérifie toutes les heures.
+    /// Le retour au premier plan ne suffit pas : sur Mac, il ne se produit parfois jamais.
+    func keepFresh() async {
+        while !Task.isCancelled {
+            try? await Task.sleep(for: .seconds(60 * 60))
+            guard !Task.isCancelled else { return }
+            await refreshIfStale()
+        }
     }
 
     @ObservationIgnored private var lastRefresh: Date?

@@ -2,8 +2,18 @@ name: Mise à jour des sondages
 
 on:
   schedule:
-    - cron: "17 2 * * *"
+    # Toutes les trois heures à partir de 2 h 17 UTC (3 h 17 à Paris en hiver) : GitHub décale souvent ces horaires.
+    - cron: "17 2-23/3 * * *"
+  push:
+    # Une saisie manuelle est publiée dès qu'elle est poussée.
+    branches: [main]
+    paths: ["pipeline/manual/**"]
   workflow_dispatch:
+
+# Deux exécutions simultanées se disputeraient le commit de l'archive.
+concurrency:
+  group: update-polls
+  cancel-in-progress: false
 
 permissions:
   contents: write
