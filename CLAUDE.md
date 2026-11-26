@@ -13,7 +13,7 @@ App SwiftUI multiplateforme (iPhone, iPad, Mac natif, widget) : moyenne pondér�
 - `Shared/` : domaine, moteur (`AverageEngine`), données, design system. Compilé dans l'app, le widget et les tests.
 - `Sondoscope/` : app. `SondoscopeWidget/` : widget. `SondoscopeTests/` : tests Swift Testing.
 - `pipeline/build_polls.py` : importe les JSON 2027etmoi vers `polls.json`. Tests : `python3 -m unittest discover -s pipeline/tests`.
-- `.github/workflows/update-polls.yml` : publication quotidienne sur https://jcanger.github.io/Sondoscope/polls.json. Ne pas supprimer `pipeline/archive/`, c'est le seul historique complet.
+- `.github/workflows/update-polls.yml` : publication quotidienne sur https://jcanger.com/Sondoscope/polls.json. Ne pas supprimer `pipeline/archive/`, c'est le seul historique complet.
 
 ## Points ouverts
 - Fiche sondage : ouverture lente signalée sur ceux qui ont beaucoup d'hypothèses. Allègement livré (matériau au lieu de Liquid Glass, LazyVStack, cache de la moyenne), à confirmer.
