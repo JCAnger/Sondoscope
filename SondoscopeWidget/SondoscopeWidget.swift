@@ -85,7 +85,7 @@ struct SondoscopeWidget: Widget {
         StaticConfiguration(kind: "SondoscopeTrend", provider: TrendProvider()) { entry in
             TrendWidgetView(entry: entry)
         }
-        .configurationDisplayName("Tendance")
+        .configurationDisplayName("Présidentielle 2027")
         .description("Top 3 de la moyenne des sondages.")
         .supportedFamilies([.systemSmall, .systemMedium])
     }

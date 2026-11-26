@@ -1,3 +1,5 @@
+![Scope2027, les sondages de la présidentielle 2027](branding/header.png)
+
 # Sondoscope
 
 App SwiftUI (iPhone, iPad, Mac natif, widgets) qui suit les intentions de vote à la présidentielle de 2027.
@@ -38,3 +40,6 @@ Fenêtre de 60 jours, demi-vie de 7 jours, poids d'échantillon √(n/1000) plaf
 
 ## Avant publication
 Faire vérifier le silence électoral et les mentions légales, puis la disponibilité du nom.
+
+
+URL de confidentialité : https://jcanger.github.io/Sondoscope/confidentialite.html

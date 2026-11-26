@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2560" width="3840" height="2560"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D3EEFA"/><stop offset=".55" stop-color="#A9DDEF"/><stop offset="1" stop-color="#8FD9C4"/></linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="307"/></filter>
+<filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="64" stdDeviation="90" flood-color="#12344A" flood-opacity=".22"/></filter>
+</defs>
+<rect width="3840" height="2560" fill="url(#bg)"/>
+<circle cx="576" cy="256" r="1152" fill="#C4EFE0" opacity=".8" filter="url(#blur)"/>
+<circle cx="3379" cy="2432" r="1280" fill="#BFE3F7" opacity=".9" filter="url(#blur)"/>
+<circle cx="2995" cy="128" r="768" fill="#FFFFFF" opacity=".55" filter="url(#blur)"/>
+<path d="M0 2150 C653 1946 1075 2304 1805 2048 S2957 1690 3840 1894" fill="none" stroke="#1F7FA8" stroke-opacity=".12" stroke-width="15.4"/>
+<path d="M0 2330 C768 2202 1344 2458 2112 2253 S3187 2048 3840 2150" fill="none" stroke="#1E8E76" stroke-opacity=".10" stroke-width="15.4"/><clipPath id="sq"><rect x="1420" y="430" width="1000" height="1000" rx="225"/></clipPath>
+<g filter="url(#shadow)"><g clip-path="url(#sq)"><image href="../icon-source-1024.png" x="1420" y="430" width="1000" height="1000"/></g></g><text x="1920" y="1760" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="170" font-weight="600" fill="#12344A" text-anchor="middle" opacity="1" letter-spacing="-1.7">Tous les sondages, une seule moyenne.</text><text x="1920" y="1950" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="90" font-weight="500" fill="#1F7FA8" text-anchor="middle" opacity="1" letter-spacing="-0.9">Institut, dates, échantillon et notice pour chaque sondage.</text></svg>

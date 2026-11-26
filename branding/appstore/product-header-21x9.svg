@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 1646" width="3840" height="1646"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D3EEFA"/><stop offset=".55" stop-color="#A9DDEF"/><stop offset="1" stop-color="#8FD9C4"/></linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="198"/></filter>
+<filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="41" stdDeviation="58" flood-color="#12344A" flood-opacity=".22"/></filter>
+</defs>
+<rect width="3840" height="1646" fill="url(#bg)"/>
+<circle cx="576" cy="165" r="741" fill="#C4EFE0" opacity=".8" filter="url(#blur)"/>
+<circle cx="3379" cy="1564" r="823" fill="#BFE3F7" opacity=".9" filter="url(#blur)"/>
+<circle cx="2995" cy="82" r="494" fill="#FFFFFF" opacity=".55" filter="url(#blur)"/>
+<path d="M0 1383 C653 1251 1075 1481 1805 1317 S2957 1086 3840 1218" fill="none" stroke="#1F7FA8" stroke-opacity=".12" stroke-width="9.9"/>
+<path d="M0 1498 C768 1416 1344 1580 2112 1448 S3187 1317 3840 1383" fill="none" stroke="#1E8E76" stroke-opacity=".10" stroke-width="9.9"/><clipPath id="sq"><rect x="740" y="403" width="760" height="760" rx="171"/></clipPath>
+<g filter="url(#shadow)"><g clip-path="url(#sq)"><image href="../icon-source-1024.png" x="740" y="403" width="760" height="760"/></g></g><text x="1620" y="813" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="150" font-weight="600" fill="#12344A" text-anchor="start" opacity="1" letter-spacing="-1.5">Tous les sondages,</text><text x="1620" y="993" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="150" font-weight="600" fill="#1F7FA8" text-anchor="start" opacity="1" letter-spacing="-1.5">une seule moyenne.</text></svg>

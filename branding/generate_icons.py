@@ -1,8 +1,18 @@
-BG={'light':('#86CDEE','#86E0C3','#FFFFFF','#2C86AE'),'dark':('#123247','#0F4A42','#E8F7FA','#7CCBEA')}
+BG={'light':('#86CDEE','#86E0C3','#FFFFFF','#2C86AE'),'dark':('#123247','#0F4A42','#E8F7FA','#2C86AE')}
 def defs(a,b):
     return f'''<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{a}"/><stop offset="1" stop-color="{b}"/></linearGradient>
 <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>'''
 def mark(fg,ac):
+    # Loupe : la lentille montre des sondages (points) et leur moyenne lissée (courbe).
+    dots=''.join(f'<circle cx="{x}" cy="{y}" r="22" fill="{ac}" fill-opacity=".4"/>' for x,y in [(300,540),(360,430),(420,500),(480,380),(530,450),(590,330),(610,410)])
+    return f'''<g><defs><clipPath id="lens"><circle cx="450" cy="440" r="226"/></clipPath></defs>
+<path d="M640 630 L800 790" stroke="{fg}" stroke-width="100" stroke-linecap="round"/>
+<circle cx="450" cy="440" r="270" fill="{fg}"/>
+<circle cx="450" cy="440" r="226" fill="none" stroke="{ac}" stroke-opacity=".18" stroke-width="12"/>
+<g clip-path="url(#lens)">{dots}
+<path d="M210 560 C320 545 380 470 450 440 S560 380 700 320" fill="none" stroke="{ac}" stroke-width="36" stroke-linecap="round"/></g>
+</g>'''
+def mark_enveloppe(fg,ac):
     return f'''<g>
 <rect x="356" y="330" width="84" height="230" rx="42" fill="{fg}"/>
 <rect x="470" y="250" width="84" height="310" rx="42" fill="{fg}"/>
@@ -28,5 +38,8 @@ def piste2():
 def piste3():
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">{defs(a,b)}<rect width="1024" height="1024" rx="225" fill="url(#bg)"/>
 <rect x="250" y="540" width="524" height="210" rx="50" fill="#fff"/><rect x="340" y="520" width="344" height="30" rx="15" fill="{ac}"/><rect x="400" y="240" width="224" height="290" rx="36" fill="#fff"/><path d="M450 450 C490 350 530 420 574 310" fill="none" stroke="{ac}" stroke-width="32" stroke-linecap="round"/></svg>'''
-open('piste-1-enveloppe-barres.svg','w').write(f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">{defs(a,b)}<rect width="1024" height="1024" rx="225" fill="url(#bg)"/>{mark(fg,ac)}</svg>''')
+open('piste-1-enveloppe-barres.svg','w').write(f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">{defs(a,b)}<rect width="1024" height="1024" rx="225" fill="url(#bg)"/>{mark_enveloppe(fg,ac)}</svg>''')
+# Logo affiché dans l'app (Logo.imageset)
+open('logo.svg','w').write(f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">{defs(a,b)}
+<rect width="1024" height="1024" rx="225" fill="url(#bg)"/><ellipse cx="512" cy="120" rx="620" ry="280" fill="url(#gloss)"/>{mark(fg,ac)}</svg>''')
 open('piste-2-anneau.svg','w').write(piste2());open('piste-3-urne.svg','w').write(piste3())

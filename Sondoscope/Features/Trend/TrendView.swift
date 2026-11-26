@@ -41,7 +41,7 @@ struct TrendView: View {
             history = result.hasEnoughData ? await model.loadHistory(days: range) : []
         }
         .refreshable { await model.refresh() }
-        .navigationTitle("Tendance")
+        .navigationTitle("Présidentielle 2027")
         .toolbar {
             RefreshToolbarItem()
             ToolbarItem {

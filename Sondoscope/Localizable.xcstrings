@@ -24,6 +24,9 @@
         }
       }
     },
+    "%lld sondage(s)" : {
+
+    },
     "%lld sondage(s) pris en compte" : {
 
     },
@@ -49,6 +52,12 @@
 
     },
     "À propos" : {
+
+    },
+    "Actualiser" : {
+
+    },
+    "Actualiser les sondages" : {
 
     },
     "Aucun sondage" : {
@@ -129,6 +138,9 @@
     "Institut" : {
 
     },
+    "Institut, dates, échantillon et notice pour chaque sondage." : {
+
+    },
     "Intention de vote" : {
 
     },
@@ -180,6 +192,9 @@
     "Première hypothèse publiée pour chaque sondage." : {
 
     },
+    "Présidentielle 2027" : {
+
+    },
     "Réinitialiser les retraits supposés" : {
 
     },
@@ -190,6 +205,9 @@
 
     },
     "Sondages" : {
+
+    },
+    "Sondoscope. Tous les sondages, une seule moyenne." : {
 
     },
     "Sources et licences" : {
@@ -210,6 +228,9 @@
     "Tendance" : {
 
     },
+    "Tous les sondages," : {
+
+    },
     "Tout" : {
 
     },
@@ -217,6 +238,9 @@
 
     },
     "Une candidature annoncée n'est pas une candidature validée. La liste officielle du Conseil constitutionnel est attendue vers la mi-mars 2027." : {
+
+    },
+    "une seule moyenne." : {
 
     },
     "Vérifié le %@" : {

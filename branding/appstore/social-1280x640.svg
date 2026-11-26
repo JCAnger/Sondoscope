@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D3EEFA"/><stop offset=".55" stop-color="#A9DDEF"/><stop offset="1" stop-color="#8FD9C4"/></linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="77"/></filter>
+<filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#12344A" flood-opacity=".22"/></filter>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<circle cx="192" cy="64" r="288" fill="#C4EFE0" opacity=".8" filter="url(#blur)"/>
+<circle cx="1126" cy="608" r="320" fill="#BFE3F7" opacity=".9" filter="url(#blur)"/>
+<circle cx="998" cy="32" r="192" fill="#FFFFFF" opacity=".55" filter="url(#blur)"/>
+<path d="M0 538 C218 486 358 576 602 512 S986 422 1280 474" fill="none" stroke="#1F7FA8" stroke-opacity=".12" stroke-width="3.8"/>
+<path d="M0 582 C256 550 448 614 704 563 S1062 512 1280 538" fill="none" stroke="#1E8E76" stroke-opacity=".10" stroke-width="3.8"/><clipPath id="sq"><rect x="110" y="170" width="300" height="300" rx="68"/></clipPath>
+<g filter="url(#shadow)"><g clip-path="url(#sq)"><image href="../icon-source-1024.png" x="110" y="170" width="300" height="300"/></g></g><text x="480" y="300" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="96" font-weight="700" fill="#12344A" text-anchor="start" opacity="1" letter-spacing="-1.0">Scope2027</text><text x="484" y="370" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="36" font-weight="500" fill="#1F7FA8" text-anchor="start" opacity="1" letter-spacing="-0.4">Les sondages de la présidentielle 2027</text><text x="484" y="430" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="400" fill="#12344A" text-anchor="start" opacity="0.72" letter-spacing="-0.3">Tous les sondages, une seule moyenne.</text></svg>

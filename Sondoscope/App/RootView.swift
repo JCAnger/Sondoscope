@@ -26,6 +26,8 @@ enum AppSection: String, CaseIterable, Identifiable, Hashable {
 struct RootView: View {
     @Environment(AppModel.self) private var model
     @AppStorage("onboardingDone") private var onboardingDone = false
+    @State private var showLaunch = true
+    @State private var minimumElapsed = false
 
     var body: some View {
         ZStack {
@@ -39,9 +41,27 @@ struct RootView: View {
                 MainNavigation()
                     .transition(.opacity)
             }
+            if showLaunch {
+                LaunchView()
+                    .transition(.opacity)
+                    .zIndex(1)
+            }
         }
         .foregroundStyle(Palette.ink)
         .tint(Palette.accent)
+        .task {
+            // La page reste au moins le temps de son animation, puis jusqu'à la fin du chargement local.
+            try? await Task.sleep(for: .seconds(1.6))
+            minimumElapsed = true
+            if model.phase != .loading { hideLaunch() }
+        }
+        .onChange(of: model.phase) { _, phase in
+            if phase != .loading, minimumElapsed { hideLaunch() }
+        }
+    }
+
+    private func hideLaunch() {
+        withAnimation(.gentle) { showLaunch = false }
     }
 }
 

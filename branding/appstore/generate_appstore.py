@@ -60,7 +60,7 @@ search = svg(W2, H2, icon((W2 - s2) / 2, 430, s2)
 W3, H3 = 1280, 640
 s3 = 300
 social = svg(W3, H3, icon(110, (H3 - s3) / 2, s3)
-             + text(480, 300, 96, "Sondoscope", weight=700)
+             + text(480, 300, 96, "Scope2027", weight=700)
              + text(484, 370, 36, "Les sondages de la présidentielle 2027", weight=500, fill=ACCENT)
              + text(484, 430, 26, PHRASE, weight=400, opacity=.72))
 
